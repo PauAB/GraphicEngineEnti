@@ -130,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PauModule.cpp" />
+    <ClCompile Include="Modules\PauModule.cpp" />
     <ClCompile Include="Shader\pipeline\Pipeline.cpp" />
     <ClCompile Include="Render\Camera\CameraController.cpp" />
     <ClCompile Include="Modules\JoseModule.cpp" />
@@ -152,7 +152,7 @@
     <ClCompile Include="Geometry\Transform.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PauModule.h" />
+    <ClInclude Include="Modules\PauModule.h" />
     <ClInclude Include="Shader\pipeline\Pipeline.h" />
     <ClInclude Include="Render\Camera\CameraController.h" />
     <ClInclude Include="Modules\JoseModule.h" />

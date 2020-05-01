@@ -8,6 +8,9 @@
 class PauModule : public Module
 {
 public:
+	PauModule();
+	~PauModule();
+
 	virtual void start() override;
 	virtual void stop() override;
 	virtual void renderDebug() override;
@@ -17,7 +20,10 @@ public:
 	void cameraController();
 
 private:
-	Transform quad1, quad2, quad3, cubetransform;
+	void setCameraParams(Camera* cam, float perspective, glm::vec3 lookAt);
+
+	Transform quad1, quad2, quad3;
+	Transform cubetransform;// , spheretransform;
 	Camera* cam;
 	GLFWwindow* window;
 	glm::vec3 pos;

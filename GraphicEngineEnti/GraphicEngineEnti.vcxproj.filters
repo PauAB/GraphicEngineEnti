@@ -60,7 +60,7 @@
     <ClCompile Include="Shader\pipeline\Pipeline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PauModule.cpp">
+    <ClCompile Include="Modules\PauModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -110,7 +110,7 @@
     <ClInclude Include="Shader\pipeline\Pipeline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PauModule.h">
+    <ClInclude Include="Modules\PauModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
